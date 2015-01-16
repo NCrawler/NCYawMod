@@ -7,6 +7,10 @@ created by NCrawler
 Changelog
 ------------------------------------------------
 
+vB30.006 - 01/xx/2015
+	--Updated DisplayName property for every ammunition item
+		--[Should make it easier to see how many rounds you have]
+		
 vB30.005 - 01/16/2015
 	--Updated all weapon addon tooltips
 		--[Now inline with base game tooltips]
