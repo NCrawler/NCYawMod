@@ -6,7 +6,7 @@
 -- General mod info
 local MOD_ID = "NCYawMod";
 local MOD_NAME = "Yet Another Weapon Mod";
-local MOD_VERSION = "B30.005";
+local MOD_VERSION = "B30.006";
 local MOD_AUTHOR = "NCrawler";
 local MOD_DESCRIPTION = "Adds several new weapons and ammunition types to the game.";
 
