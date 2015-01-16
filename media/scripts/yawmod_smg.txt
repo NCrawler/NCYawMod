@@ -1,0 +1,75 @@
+/** ================================================ **/
+/** NCYawMod SMGs and Magazines						 **/
+/** ================================================ **/
+
+module NCYawMod
+{
+	item HKMP5A3
+	{
+		AmmoType						= HKMP5A3Mag,
+		ImpactSound						= null,
+		MaxRange						= 14,
+		WeaponSprite					= Shotgun,
+		SoundVolume						= 200,
+		MinAngle						= 0.7,
+		Type							= Weapon,
+		MinimumSwingTime				= 2,
+		ToHitModifier					= 3.0,
+		NPCSoundBoost					= 1.5,
+		KnockBackOnNoDeath				= TRUE,
+		Ranged							= TRUE,
+		SwingAmountBeforeImpact			= 0,
+		ProjectileCount					= 3,
+		ConditionLowerChanceOneIn		= 60,
+		Weight							= 6.8,
+		SplatNumber						= 5,
+		PushBackMod						= 0.8,
+		MaxDamage						= 2.3,
+		SubCategory						= Firearm,
+		ConditionMax					= 10,
+		ShareDamage						= FALSE,
+		MaxHitCount						= 3,
+		IsAimedFirearm					= TRUE,
+		DoorDamage						= 15,
+		UseEndurance					= FALSE,
+		SwingAnim						= Rifle,
+		WeaponWeight					= 6.8,
+		DisplayName						= HK MP5A3,
+		MinRange						= 0.6,
+		SwingTime						= 2,
+		MultipleHitConditionAffected	= FALSE,
+		SwingSound						= 9x19mmLuger_SMG,
+		SoundRadius						= 150,
+		MinDamage						= 1.8,
+		SplatSize						= 3,
+		KnockdownMod					= 8,
+		SplatBloodOnNoDeath				= TRUE,
+		Icon							= WpnSMG_HKMP5A3,
+		RunAnim							= Run_Weapon2,
+		IdleAnim						= Idle_Weapon2,
+		
+		CriticalChance					= 25,
+		AimingPerkCritModifier			= 12,
+		HitChance						= 27,
+		AimingPerkHitChanceModifier		= 17,
+		AimingPerkMinAngleModifier		= 0.01,
+		AimingPerkRangeModifier			= 2,
+		RecoilDelay						= 20,
+		PiercingBullets					= TRUE,
+		SoundGain						= 2,
+		ClipSize						= 30,
+		ReloadTime						= 20,
+		AimingTime						= 15,
+		RequiresEquippedBothHands		= TRUE,
+		BreakSound						= PZ_MetalSnap,
+	}
+	
+	item HKMP5A3Mag
+	{
+		CanStack						= FALSE,
+		Weight							= 0.2,
+		Type							= Normal,
+		DisplayName						= HK MP5A3 Magazine,
+		Icon							= Magazine_HKMP5A3,
+	}
+}

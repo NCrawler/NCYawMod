@@ -1,0 +1,145 @@
+/** ================================================ **/
+/** NCYawMod Gunsmith Items      					 **/
+/** ================================================ **/
+
+module NCYawMod
+{
+	item GunsmithToolkit
+	{
+		Weight				= 1.5,
+		Type				= Normal,
+		UseWhileEquipped	= FALSE,
+		DisplayName			= Gunsmith Toolkit,
+		Icon				= Misc_GunsmithToolKit,
+	}
+	
+	item GunCleaningKit
+	{
+		Weight				= 1.0,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.1,
+		DisplayName			= Gun Cleaning Kit,
+		Icon				= Misc_GunCleaningKit,
+	}
+	
+	item RugerMarkIIIParts
+	{
+		Weight				= 2.1,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= Ruger Mark III Parts,
+		Icon				= Misc_GunParts,
+	}
+	
+	item Beretta92FSParts
+	{
+		Weight				= 2.1,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= Beretta 92FS Parts,
+		Icon				= Misc_GunParts,
+	}
+	
+	item BerettaPx4StormParts
+	{
+		Weight				= 1.7,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= Beretta Px4 Storm Parts,
+		Icon				= Misc_GunParts,
+	}
+	
+	item Colt1911Parts
+	{
+		Weight				= 2.4,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= Colt 1911 Parts,
+		Icon				= Misc_GunParts,
+	}
+	
+	item S&W686Parts
+	{
+		Weight				= 2.1,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= S&W 686 Parts,
+		Icon				= Misc_GunParts,
+	}
+	
+	item Ruger1022Parts
+	{
+		Weight				= 5,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= Ruger 10-22 Parts,
+		Icon				= Misc_GunParts,
+	}
+	
+	item Winchester94Parts
+	{
+		Weight				= 6.8,
+		Type				= Drainable,
+		UseWhileEquipped 	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= Winchester 94 Parts,
+		Icon				= Misc_GunParts,
+	}
+	
+	item ColtAR15A3Parts
+	{
+		Weight				= 5.5,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= Colt AR15-A3 Parts,
+		Icon				= Misc_GunParts,
+	}
+	
+	item Remington700SPSParts
+	{
+		Weight				= 8,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= Remington 700 SPS Parts,
+		Icon				= Misc_GunParts,
+	}
+	
+	item SKS45Parts
+	{
+		Weight				= 8.8,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= SKS-45 Parts,
+		Icon				= Misc_GunParts,
+	}
+	
+	item Mossberg500ATParts
+	{
+		Weight				= 5.5,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= Mossberg 500AT Parts,
+		Icon				= Misc_GunParts,
+	}
+	
+	item HKMP5A3Parts
+	{
+		Weight				= 6.8,
+		Type				= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 1.0,
+		DisplayName			= HK MP5A3 Parts,
+		Icon				= Misc_GunParts,
+	}
+}

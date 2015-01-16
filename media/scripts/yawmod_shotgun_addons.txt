@@ -1,0 +1,127 @@
+/** ================================================ **/
+/** NCYawMod Shotgun Addons							 **/
+/** ================================================ **/
+
+module NCYawMod
+{
+	/** ================================================ **/
+	/** Mossberg 500AT & Sawed-off     					 **/
+	/** ================================================ **/
+	item Mossberg500ATAdjustableStock
+    {
+        Type				= WeaponPart,
+        DisplayName			= Adjustable Stock,
+        Icon				= WpnAddon_Mossberg500AT_AdjustableStock,
+        Weight				= 1,
+        WeightModifier		= -0.5,
+        HitChanceModifier	= 8,
+        MountOn				= Mossberg500AT; SawedOffMossberg500AT,
+        PartType			= Stock,
+        Tooltip				= Tooltip_FiberglassStock,
+    }
+    
+    item Mossberg500ATAmmoSling
+    {
+        Type				= WeaponPart,
+        DisplayName			= Ammo Sling,
+        Icon				= WpnAddon_Mossberg500AT_AmmoSling,
+        Weight				= 0.5,
+        WeightModifier		= 0.5,
+        ReloadTimeModifier	= -5,
+        MountOn				= Mossberg500AT; SawedOffMossberg500AT,
+        PartType			= Sling,
+        Tooltip				= Tooltip_AmmoStrap,
+    }
+    
+    item Mossberg500ATFullChoke
+    {
+        Type				= WeaponPart,
+        DisplayName			= Full Choke,
+        Icon				= WpnAddon_Mossberg500AT_FullChoke,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        AngleModifier		= 0.1,
+        DamageModifier		= 0.5,
+        MountOn				= Mossberg500AT,
+        PartType			= Canon,
+        Tooltip				= Tooltip_ChokeTubeFull,
+    }
+    
+    item Mossberg500ATImprovedChoke
+    {
+        Type				= WeaponPart,
+        DisplayName			= Improved Choke,
+        Icon				= WpnAddon_Mossberg500AT_ImprovedChoke,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        AngleModifier		= -0.1,
+        DamageModifier		= -0.5,
+        MountOn				= Mossberg500AT,
+        PartType			= Canon,
+        Tooltip				= Tooltip_ChokeTubeImproved,
+    }
+    
+    item Mossberg500ATLaserSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Laser Sight,
+        Icon				= WpnAddon_Mossberg500AT_LaserSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        HitChanceModifier	= 5,
+        MountOn				= Mossberg500AT; SawedOffMossberg500AT,
+        PartType			= Canon,
+        Tooltip				= Tooltip_Laser,
+    }
+    
+    item Mossberg500ATReflexSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Reflex Sight,
+        Icon				= WpnAddon_Mossberg500AT_ReflexSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        AimingTimeModifier	= 5,
+        MountOn				= Mossberg500AT; SawedOffMossberg500AT,
+        PartType			= Scope,
+        Tooltip				= Tooltip_RedDot,
+    }
+    
+    item Mossberg500ATRubberRecoilPad
+    {
+        Type				= WeaponPart,
+        DisplayName			= Rubber Recoil Pad,
+        Icon				= WpnAddon_Mossberg500AT_RubberRecoilPad,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        RecoilDelayModifier	= 5,
+        MountOn				= Mossberg500AT,
+        PartType			= RecoilPad,
+        Tooltip				= Tooltip_RecoilPad,
+    }
+    
+    item Mossberg500ATTacticalSling
+	{
+		Type				= WeaponPart,
+        DisplayName			= Tactical Sling,
+        Icon				= WpnAddon_Mossberg500AT_TacticalSling,
+        Weight				= 0.4,
+        WeightModifier		= -0.3,
+        MountOn				= Mossberg500AT; SawedOffMossberg500AT,
+        PartType			= Sling,
+        Tooltip				= Tooltip_Sling,
+	}
+	
+	item Mossberg500ATTruGloSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= TruGlo Sight,
+        Icon				= WpnAddon_Mossberg500AT_TruGloSight,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        MaxRangeModifier	= 3,
+        MountOn				= Mossberg500AT,
+        PartType			= Scope,
+        Tooltip				= Tooltip_IronSight,
+    }
+}

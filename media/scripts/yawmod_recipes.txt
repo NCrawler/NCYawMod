@@ -1,0 +1,372 @@
+/** ================================================ **/
+/** NCYawMod Recipes          						 **/
+/** ================================================ **/
+
+module NCYawMod
+{
+	imports
+	{
+		Base
+	}
+/** ================================================ **/
+/** Saw off shotgun recipe      					 **/
+/** ================================================ **/
+	recipe Saw off
+	{
+	   Mossberg500AT,
+	   keep Saw,
+
+	   Result:SawedOffMossberg500AT,
+	   Sound:PZ_Saw,
+	   Time:200.0,
+	}
+
+/** ================================================ **/
+/** Ammo boxing recipes         					 **/
+/** ================================================ **/
+	recipe Put in a box
+  {
+      Bullets22LR=100,
+
+      Result:Box22LR,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+	recipe Put in a box
+  {
+      Bullets9x19mmLuger=50,
+
+      Result:Box9x19mmLuger,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Put in a box
+  {
+      Bullets40SW=50,
+
+      Result:Box40SW,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Put in a box
+  {
+      Bullets45ACP=50,
+
+      Result:Box45ACP,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Put in a box
+  {
+      Bullets357Magnum=50,
+
+      Result:Box357Magnum,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+
+	recipe Put in a box
+  {
+      Bullets3030Win=25,
+
+      Result:Box3030Win,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Put in a box
+  {
+      Bullets223Rem=25,
+
+      Result:Box223Rem,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Put in a box
+  {
+      Bullets308Win=25,
+
+      Result:Box308Win,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Put in a box
+  {
+      Bullets762x39mm=25,
+
+      Result:Box762x39mm,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Put in a box
+  {
+      Shells12Ga=20,
+
+      Result:Box12Ga,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+
+/** ================================================ **/
+/** Ammo unboxing recipes        					 **/
+/** ================================================ **/
+  recipe Open .22 LR box
+  {
+      Box22LR,
+
+      Result:Bullets22LR=5,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Open 9x19mm Luger box
+  {
+      Box9x19mmLuger,
+
+      Result:Bullets9x19mmLuger=5,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Open .40 S&W box
+  {
+      Box40SW,
+
+      Result:Bullets40SW=5,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Open .45 ACP box
+  {
+      Box45ACP,
+
+      Result:Bullets45ACP=5,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Open .357 Magnum box
+  {
+      Box357Magnum,
+
+      Result:Bullets357Magnum=5,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Open .30-30 Win box
+  {
+      Box3030Win,
+
+      Result:Bullets3030Win=5,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Open .223 Rem box
+  {
+      Box223Rem,
+
+      Result:Bullets223Rem=5,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Open .308 Win box
+  {
+      Box308Win,
+
+      Result:Bullets308Win=5,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+  
+  recipe Open 7.62x39mm M43 box
+  {
+      Box762x39mm,
+
+      Result:Bullets762x39mm=5,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+
+  recipe Open .12 Gauge box
+  {
+      Box12Ga,
+
+      Result:Shells12Ga=2,
+      Sound:PZ_PutInBag,
+      Time:5.0,
+  }
+
+/** ================================================ **/
+/** Create parts kits recipes (handguns)			 **/
+/** ================================================ **/
+  recipe Create parts kit
+  {
+  		RugerMarkIII,
+  		keep GunsmithToolkit,
+  		
+  		Result:RugerMarkIIIParts,
+  		Sound:MakePartsKit,
+  		Time:300.0,
+  }
+  
+  recipe Create parts kit
+  {
+  		Beretta92FS,
+  		keep GunsmithToolkit,
+  		
+  		Result:Beretta92FSParts,
+  		Sound:MakePartsKit,
+  		Time:300.0,
+  }
+  
+  recipe Create parts kit
+  {
+  		BerettaPx4Storm,
+  		keep GunsmithToolkit,
+  		
+  		Result:BerettaPx4StormParts,
+  		Sound:MakePartsKit,
+  		Time:300.0,
+  }
+  
+  recipe Create parts kit
+  {
+  		Colt1911,
+  		keep GunsmithToolkit,
+  		
+  		Result:Colt1911Parts,
+  		Sound:MakePartsKit,
+  		Time:300.0,
+  }
+  
+  recipe Create parts kit
+  {
+  		S&W686,
+  		keep GunsmithToolkit,
+  		
+  		Result:S&W686Parts,
+  		Sound:MakePartsKit,
+  		Time:300.0,
+  }
+
+/** ================================================ **/
+/** Create parts kits recipes (rifles)  			 **/
+/** ================================================ **/
+	recipe Create parts kit
+  {
+  		Ruger1022,
+  		keep GunsmithToolkit,
+  		
+  		Result:Ruger1022Parts,
+  		Sound:MakePartsKit,
+  		Time:450.0,
+  }
+  
+  recipe Create parts kit
+  {
+  		Winchester94,
+  		keep GunsmithToolkit,
+  		
+  		Result:Winchester94Parts,
+  		Sound:MakePartsKit,
+  		Time:450.0,
+  }
+  
+  recipe Create parts kit
+  {
+  		ColtAR15A3,
+  		keep GunsmithToolkit,
+  		
+  		Result:ColtAR15A3Parts,
+  		Sound:MakePartsKit,
+  		Time:450.0,
+  }
+  
+  recipe Create parts kit
+  {
+  		Remington700SPS,
+  		keep GunsmithToolkit,
+  		
+  		Result:Remington700SPSParts,
+  		Sound:MakePartsKit,
+  		Time:450.0,
+  }
+  
+  recipe Create parts kit
+  {
+  		SKS45,
+  		keep GunsmithToolkit,
+  		
+  		Result:SKS45Parts,
+  		Sound:MakePartsKit,
+  		Time:450.0,
+  }
+
+/** ================================================ **/
+/** Create parts kits recipes (shotguns) 			 **/
+/** ================================================ **/
+	recipe Create parts kit
+  {
+  		Mossberg500AT,
+  		keep GunsmithToolkit,
+  		
+  		Result:Mossberg500ATParts,
+  		Sound:MakePartsKit,
+  		Time:400.0,
+  }
+  
+  recipe Create parts kit
+  {
+  		SawedOffMossberg500AT,
+  		keep GunsmithToolkit,
+  		
+  		Result:Mossberg500ATParts,
+  		Sound:MakePartsKit,
+  		Time:300.0,
+  }
+
+/** ================================================ **/
+/** Create parts kits recipes (smgs)    			 **/
+/** ================================================ **/
+	recipe Create parts kit
+  {
+  		HKMP5A3,
+  		keep GunsmithToolkit,
+  		
+  		Result:HKMP5A3Parts,
+  		Sound:MakePartsKit,
+  		Time:650.0,
+  }
+  
+/** ================================================ **/
+/** Towel drying recipes                			 **/
+/** ================================================ **/
+	recipe Wring Out Dish Towel
+	{
+		destroy DishClothWet,
+	   
+	  	Result:DishCloth,
+	  	Sound:WringOutCloth,
+	  	Time:150.0,
+	}
+	
+	recipe Wring Out Bath Towel
+	{
+		destroy BathTowelWet,
+	   
+	  	Result:BathTowel,
+	  	Sound:WringOutCloth,
+	  	Time:150.0,
+	}
+}

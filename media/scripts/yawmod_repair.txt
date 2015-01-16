@@ -1,0 +1,126 @@
+/** ================================================ **/
+/** NCYawMod Repairing          					 **/
+/** ================================================ **/
+
+module NCYawMod
+{
+/** ================================================ **/
+/** Handguns                    					 **/
+/** ================================================ **/
+
+	fixing Repair Ruger Mark III
+	{
+		Require : RugerMarkIII,
+		
+		Fixer 	: RugerMarkIIIParts; Aiming=2,
+		Fixer	: GunCleaningKit,
+	}
+	
+	fixing Repair Beretta 92FS
+	{
+		Require : Beretta92FS,
+		
+		Fixer 	: Beretta92FSParts; Aiming=2,
+		Fixer	: GunCleaningKit,
+	}
+	
+	fixing Repair Beretta Px4 Storm
+	{
+		Require : BerettaPx4Storm,
+		
+		Fixer 	: BerettaPx4StormParts; Aiming=2,
+		Fixer	: GunCleaningKit,
+	}
+	
+	fixing Repair Colt 1911
+	{
+		Require : Colt1911,
+		
+		Fixer 	: Colt1911Parts; Aiming=2,
+		Fixer	: GunCleaningKit,
+	}
+	
+	fixing Repair S&W 686
+	{
+		Require : S&W686,
+		
+		Fixer 	: S&W686Parts; Aiming=2,
+		Fixer	: GunCleaningKit,
+	}
+
+/** ================================================ **/
+/** Rifles                      					 **/
+/** ================================================ **/
+
+	fixing Repair Ruger 10-22
+	{
+		Require : Ruger1022,
+		
+		Fixer 	: Ruger1022Parts; Aiming=3,
+		Fixer	: GunCleaningKit,
+	}
+	
+	fixing Repair Winchester 94
+	{
+		Require : Winchester94,
+		
+		Fixer 	: Winchester94Parts; Aiming=3,
+		Fixer	: GunCleaningKit,
+	}
+	
+	fixing Repair Colt AR15-A3
+	{
+		Require : ColtAR15A3,
+		
+		Fixer 	: ColtAR15A3Parts; Aiming=4,
+		Fixer	: GunCleaningKit,
+	}
+	
+	fixing Repair Remington 700 SPS
+	{
+		Require : Remington700SPS,
+		
+		Fixer 	: Remington700SPSParts; Aiming=4,
+		Fixer	: GunCleaningKit,
+	}
+	
+	fixing Repair SKS-45
+	{
+		Require : SKS45,
+		
+		Fixer 	: SKS45Parts; Aiming=3,
+		Fixer	: GunCleaningKit,
+	}
+
+/** ================================================ **/
+/** Shotguns                     					 **/
+/** ================================================ **/
+
+	fixing Repair Mossberg 500AT
+	{
+		Require : Mossberg500AT,
+		
+		Fixer 	: Mossberg500ATParts; Aiming=3,
+		Fixer	: GunCleaningKit,
+	}
+	
+	fixing Repair Sawed-off Mossberg 500AT
+	{
+		Require : SawedOffMossberg500AT,
+		
+		Fixer 	: Mossberg500ATParts; Aiming=3,
+		Fixer	: GunCleaningKit,
+	}
+
+/** ================================================ **/
+/** SMGs                        					 **/
+/** ================================================ **/
+
+	fixing Repair HK MP5A3
+	{
+		Require : HKMP5A3,
+		
+		Fixer 	: HKMP5A3Parts; Aiming=4,
+		Fixer	: GunCleaningKit,
+	}
+}

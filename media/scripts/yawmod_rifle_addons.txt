@@ -1,0 +1,286 @@
+/** ================================================ **/
+/** NCYawMod Rifle Addons							 **/
+/** ================================================ **/
+
+module NCYawMod
+{
+	/** ================================================ **/
+	/** Scopes					      					 **/
+	/** ================================================ **/
+	item RifleScope2x
+    {
+        Type				= WeaponPart,
+        DisplayName			= 2x Rifle Scope,
+        Icon				= WpnAddon_Rifle_2xScope,
+        Weight				= 0.3,
+        WeightModifier		= 0.3,
+        MaxRangeModifier	= 7,
+        MinRangeModifier	= 6,
+        MountOn				= Ruger1022; Winchester94; ColtAR15A3; Remington700SPS; SKS45,
+        PartType			= Scope,
+        Tooltip				= Tooltip_Scope,
+    }
+    
+    item RifleScope4x
+    {
+        Type				= WeaponPart,
+        DisplayName			= 4x Rifle Scope,
+        Icon				= WpnAddon_Rifle_4xScope,
+        Weight				= 0.4,
+        WeightModifier		= 0.4,
+        MaxRangeModifier	= 13,
+        MinRangeModifier	= 8,
+        MountOn				= Ruger1022; Winchester94; ColtAR15A3; Remington700SPS; SKS45,
+        PartType			= Scope,
+        Tooltip				= Tooltip_Scope,
+    }
+    
+    item RifleScope8x
+    {
+        Type				= WeaponPart,
+        DisplayName			= 8x Rifle Scope,
+        Icon				= WpnAddon_Rifle_8xScope,
+        Weight				= 0.8,
+        WeightModifier		= 0.8,
+        MaxRangeModifier	= 20,
+        MinRangeModifier	= 10,
+        MountOn				= Ruger1022; Winchester94; ColtAR15A3; Remington700SPS; SKS45,
+        PartType			= Scope,
+        Tooltip				= Tooltip_Scope,
+    }
+    
+    /** ================================================ **/
+	/** Sling					      					 **/
+	/** ================================================ **/
+	item RifleSling
+	{
+		Type				= WeaponPart,
+        DisplayName			= Standard Sling,
+        Icon				= WpnAddon_Rifle_Sling,
+        Weight				= 0.5,
+        WeightModifier		= -0.3,
+        MountOn				= Ruger1022; Winchester94; Remington700SPS; SKS45,
+        PartType			= Sling,
+        Tooltip				= Tooltip_Sling,
+	}
+	
+	/** ================================================ **/
+	/** Ruger 10-22				      					 **/
+	/** ================================================ **/
+	item Ruger1022ExtendedMag
+    {
+        Type				= WeaponPart,
+        DisplayName			= High Cap Mag,
+        Icon				= WpnAddon_Ruger1022_HighCapMag,
+        Weight				= 0.5,
+        ClipSizeModifier	= 15,
+        MountOn				= Ruger1022,
+        PartType			= Clip,
+        Tooltip				= Increase capacity,
+    }
+    
+    item Ruger1022FiberOpticSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Fiber Optic Sight,
+        Icon				= WpnAddon_Ruger1022_FiberOpticSight,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        MaxRangeModifier	= 3,
+        MountOn				= Ruger1022,
+        PartType			= Scope,
+        Tooltip				= Tooltip_IronSight,
+    }
+    
+    item Ruger1022LaserSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Laser Sight,
+        Icon				= WpnAddon_Ruger1022_LaserSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        HitChanceModifier	= 5,
+        MountOn				= Ruger1022,
+        PartType			= Canon,
+        Tooltip				= Tooltip_Laser,
+    }
+    
+    item Ruger1022ReflexSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Reflex Sight,
+        Icon				= WpnAddon_Ruger1022_ReflexSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        AimingTimeModifier	= 5,
+        MountOn				= Ruger1022,
+        PartType			= Scope,
+        Tooltip				= Tooltip_RedDot,
+    }
+    
+    item Ruger1022TargetStock
+    {
+        Type				= WeaponPart,
+        DisplayName			= Target Stock,
+        Icon				= WpnAddon_Ruger1022_TargetStock,
+        Weight				= 1,
+        WeightModifier		= -0.5,
+        HitChanceModifier	= 8,
+        MountOn				= Ruger1022,
+        PartType			= Stock,
+        Tooltip				= Tooltip_FiberglassStock,
+    }
+    
+    /** ================================================ **/
+	/** Winchester 94			      					 **/
+	/** ================================================ **/
+	item Winchester94TruGloSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= TruGlo Sight,
+        Icon				= WpnAddon_Winchester94_TruGloSight,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        MaxRangeModifier	= 3,
+        MountOn				= Winchester94,
+        PartType			= Scope,
+        Tooltip				= Tooltip_IronSight,
+    }
+    
+    /** ================================================ **/
+	/** Colt AR15-A3			      					 **/
+	/** ================================================ **/
+	item ColtAR15A3ExtendedMag
+    {
+        Type				= WeaponPart,
+        DisplayName			= High Cap Mag,
+        Icon				= WpnAddon_ColtAR15A3_HighCapMag,
+        Weight				= 0.5,
+        ClipSizeModifier	= 70,
+        MountOn				= ColtAR15A3,
+        PartType			= Clip,
+        Tooltip				= Increase capacity,
+    }
+    
+    item ColtAR15A3LaserSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Laser Sight,
+        Icon				= WpnAddon_ColtAR15A3_LaserSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        HitChanceModifier	= 5,
+        MountOn				= ColtAR15A3,
+        PartType			= Canon,
+        Tooltip				= Tooltip_Laser,
+    }
+    
+    item ColtAR15A3M4Stock
+    {
+        Type				= WeaponPart,
+        DisplayName			= M4 Stock,
+        Icon				= WpnAddon_ColtAR15A3_M4Stock,
+        Weight				= 1,
+        WeightModifier		= -0.5,
+        HitChanceModifier	= 8,
+        RecoilDelayModifier = 5,
+        MountOn				= ColtAR15A3,
+        PartType			= Stock,
+        Tooltip				= Increase the hit chance and reduce weight and recoil time,
+    }
+    
+    item ColtAR15A3ReflexSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Reflex Sight,
+        Icon				= WpnAddon_ColtAR15A3_ReflexSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        AimingTimeModifier	= 5,
+        MountOn				= ColtAR15A3,
+        PartType			= Scope,
+        Tooltip				= Tooltip_RedDot,
+    }
+    
+    item ColtAR15A3TacticalSling
+	{
+		Type				= WeaponPart,
+        DisplayName			= Tactical Sling,
+        Icon				= WpnAddon_ColtAR15A3_TacticalSling,
+        Weight				= 0.4,
+        WeightModifier		= -0.3,
+        MountOn				= ColtAR15A3,
+        PartType			= Sling,
+        Tooltip				= Tooltip_Sling,
+	}
+	
+	item ColtAR15A3TrijiconSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Trijicon Sight,
+        Icon				= WpnAddon_ColtAR15A3_TrijiconSight,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        MaxRangeModifier	= 3,
+        MountOn				= ColtAR15A3,
+        PartType			= Scope,
+        Tooltip				= Tooltip_IronSight,
+    }
+    
+    /** ================================================ **/
+	/** Remington 700 SPS		      					 **/
+	/** ================================================ **/
+	item Remington700SPSAdjustableStock
+    {
+        Type				= WeaponPart,
+        DisplayName			= Adjustable Stock,
+        Icon				= WpnAddon_Remington700SPS_AdjustableStock,
+        Weight				= 1,
+        WeightModifier		= -0.5,
+        HitChanceModifier	= 8,
+        MountOn				= Remington700SPS,
+        PartType			= Stock,
+        Tooltip				= Tooltip_FiberglassStock,
+    }
+    
+    /** ================================================ **/
+	/** SKS 45					      					 **/
+	/** ================================================ **/
+	item SKS45ExtendedMag
+    {
+        Type				= WeaponPart,
+        DisplayName			= High Cap Mag,
+        Icon				= WpnAddon_SKS45_HighCapMag,
+        Weight				= 0.5,
+        ClipSizeModifier	= 20,
+        MountOn				= SKS45,
+        PartType			= Clip,
+        Tooltip				= Increase capacity,
+    }
+    
+    item SKS45ReflexSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Reflex Sight,
+        Icon				= WpnAddon_SKS45_ReflexSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        AimingTimeModifier	= 5,
+        MountOn				= SKS45,
+        PartType			= Scope,
+        Tooltip				= Tooltip_RedDot,
+    }
+    
+	item SKS45AdjustableStock
+    {
+        Type				= WeaponPart,
+        DisplayName			= Adjustable Stock,
+        Icon				= WpnAddon_SKS45_AdjustableStock,
+        Weight				= 1,
+        WeightModifier		= -0.5,
+        HitChanceModifier	= 8,
+        MountOn				= SKS45,
+        PartType			= Stock,
+        Tooltip				= Tooltip_FiberglassStock,
+    }   
+}

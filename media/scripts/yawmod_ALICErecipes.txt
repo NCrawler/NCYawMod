@@ -1,0 +1,275 @@
+/** ================================================ **/
+/** NCYawMod Modular ALICE Pack Recipes				 **/
+/** ================================================ **/
+
+module NCYawMod
+{
+/** ================================================ **/
+/** Frame recipes               					 **/
+/** ================================================ **/
+  recipe Attach Frame
+  {
+  		MediumALICEPack,
+  		ALICEPackFrame,
+  		
+  		Result:MediumALICEPack-F,
+  		Time:90.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Frame
+  {
+  		LargeALICEPack,
+  		ALICEPackFrame,
+  		
+  		Result:LargeALICEPack-F,
+  		Time:90.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+
+/** ================================================ **/
+/** Pouch recipes - Medium Pack  					 **/
+/** ================================================ **/
+  recipe Attach Top Pouch
+  {
+  		MediumALICEPack-F,
+  		ALICEPackTopPouch,
+  		
+  		Result:MediumALICEPack-FT,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Long Pouch
+  {
+  		MediumALICEPack-F,
+  		ALICEPackLongPouch,
+  		
+  		Result:MediumALICEPack-FL,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Short Pouch
+  {
+  		MediumALICEPack-F,
+  		ALICEPackShortPouch,
+  		
+  		Result:MediumALICEPack-FS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Long Pouch
+  {
+  		MediumALICEPack-FT,
+  		ALICEPackLongPouch,
+  		
+  		Result:MediumALICEPack-FTL,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Top Pouch
+  {
+  		MediumALICEPack-FL,
+  		ALICEPackTopPouch,
+  		
+  		Result:MediumALICEPack-FTL,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Short Pouch
+  {
+  		MediumALICEPack-FT,
+  		ALICEPackShortPouch,
+  		
+  		Result:MediumALICEPack-FTS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Top Pouch
+  {
+  		MediumALICEPack-FS,
+  		ALICEPackTopPouch,
+  		
+  		Result:MediumALICEPack-FTS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Short Pouch
+  {
+  		MediumALICEPack-FL,
+  		ALICEPackShortPouch,
+  		
+  		Result:MediumALICEPack-FLS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Long Pouch
+  {
+  		MediumALICEPack-FS,
+  		ALICEPackLongPouch,
+  		
+  		Result:MediumALICEPack-FLS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Short Pouch
+  {
+  		MediumALICEPack-FTL,
+  		ALICEPackShortPouch,
+  		
+  		Result:MediumALICEPack-FTLS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Long Pouch
+  {
+  		MediumALICEPack-FTS,
+  		ALICEPackLongPouch,
+  		
+  		Result:MediumALICEPack-FTLS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Top Pouch
+  {
+  		MediumALICEPack-FLS,
+  		ALICEPackTopPouch,
+  		
+  		Result:MediumALICEPack-FTLS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+
+/** ================================================ **/
+/** Pouch recipes - Large Pack  					 **/
+/** ================================================ **/
+  recipe Attach Top Pouch
+  {
+  		LargeALICEPack-F,
+  		ALICEPackTopPouch,
+  		
+  		Result:LargeALICEPack-FT,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Long Pouch
+  {
+  		LargeALICEPack-F,
+  		ALICEPackLongPouch,
+  		
+  		Result:LargeALICEPack-FL,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Short Pouch
+  {
+  		LargeALICEPack-F,
+  		ALICEPackShortPouch,
+  		
+  		Result:LargeALICEPack-FS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Long Pouch
+  {
+  		LargeALICEPack-FT,
+  		ALICEPackLongPouch,
+  		
+  		Result:LargeALICEPack-FTL,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Top Pouch
+  {
+  		LargeALICEPack-FL,
+  		ALICEPackTopPouch,
+  		
+  		Result:LargeALICEPack-FTL,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Short Pouch
+  {
+  		LargeALICEPack-FT,
+  		ALICEPackShortPouch,
+  		
+  		Result:LargeALICEPack-FTS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Top Pouch
+  {
+  		LargeALICEPack-FS,
+  		ALICEPackTopPouch,
+  		
+  		Result:LargeALICEPack-FTS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Short Pouch
+  {
+  		LargeALICEPack-FL,
+  		ALICEPackShortPouch,
+  		
+  		Result:LargeALICEPack-FLS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Long Pouch
+  {
+  		LargeALICEPack-FS,
+  		ALICEPackLongPouch,
+  		
+  		Result:LargeALICEPack-FLS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Short Pouch
+  {
+  		LargeALICEPack-FTL,
+  		ALICEPackShortPouch,
+  		
+  		Result:LargeALICEPack-FTLS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Long Pouch
+  {
+  		LargeALICEPack-FTS,
+  		ALICEPackLongPouch,
+  		
+  		Result:LargeALICEPack-FTLS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+  
+  recipe Attach Top Pouch
+  {
+  		LargeALICEPack-FLS,
+  		ALICEPackTopPouch,
+  		
+  		Result:LargeALICEPack-FTLS,
+  		Time:75.0,
+  		OnTest:ALICEAttach_OnTest,
+  }
+}

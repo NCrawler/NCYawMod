@@ -1,0 +1,113 @@
+/** ================================================ **/
+/** NCYawMod SMG Addons								 **/
+/** ================================================ **/
+
+module NCYawMod
+{
+	/** ================================================ **/
+	/** HK MP5A3				     					 **/
+	/** ================================================ **/
+	item HKMP5A3Scope3x
+    {
+        Type				= WeaponPart,
+        DisplayName			= 3x Scope,
+        Icon				= WpnAddon_HKMP5A3_2xScope,
+        Weight				= 0.3,
+        WeightModifier		= 0.3,
+        MaxRangeModifier	= 10,
+        MinRangeModifier	= 7,
+        MountOn				= HKMP5A3,
+        PartType			= Scope,
+        Tooltip				= Tooltip_Scope,
+    }
+    
+    item HKMP5A3Scope4x
+    {
+        Type				= WeaponPart,
+        DisplayName			= 4x Scope,
+        Icon				= WpnAddon_HKMP5A3_4xScope,
+        Weight				= 0.4,
+        WeightModifier		= 0.4,
+        MaxRangeModifier	= 13,
+        MinRangeModifier	= 8,
+        MountOn				= HKMP5A3,
+        PartType			= Scope,
+        Tooltip				= Tooltip_Scope,
+    }
+    
+    item HKMP5A3FixedStock
+    {
+        Type				= WeaponPart,
+        DisplayName			= Fixed Stock,
+        Icon				= WpnAddon_HKMP5A3_FixedStock,
+        Weight				= 1,
+        WeightModifier		= 0.5,
+        HitChanceModifier	= 8,
+        MountOn				= HKMP5A3,
+        PartType			= Stock,
+        Tooltip				= Increase the hit chance and increase the weight,
+    }
+    
+    item HKMP5A3ExtendedMag
+    {
+        Type				= WeaponPart,
+        DisplayName			= High Cap Mag,
+        Icon				= WpnAddon_HKMP5A3_HighCapMag,
+        Weight				= 0.5,
+        ClipSizeModifier	= 70,
+        MountOn				= HKMP5A3,
+        PartType			= Clip,
+        Tooltip				= Increase capacity,
+    }
+    
+    item HKMP5A3LaserSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Laser Sight,
+        Icon				= WpnAddon_HKMP5A3_LaserSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        HitChanceModifier	= 5,
+        MountOn				= HKMP5A3,
+        PartType			= Canon,
+        Tooltip				= Tooltip_Laser,
+    }
+    
+    item HKMP5A3ReflexSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Reflex Sight,
+        Icon				= WpnAddon_HKMP5A3_ReflexSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        AimingTimeModifier	= 5,
+        MountOn				= HKMP5A3,
+        PartType			= Scope,
+        Tooltip				= Tooltip_RedDot,
+    }
+    
+    item HKMP5A3TacticalSling
+	{
+		Type				= WeaponPart,
+        DisplayName			= Tactical Sling,
+        Icon				= WpnAddon_HKMP5A3_TacticalSling,
+        Weight				= 0.4,
+        WeightModifier		= -0.3,
+        MountOn				= HKMP5A3,
+        PartType			= Sling,
+        Tooltip				= Tooltip_Sling,
+	}
+	
+	item HKMP5A3TrijiconSight
+    {
+        Type				= WeaponPart,
+        DisplayName			= Trijicon Sight,
+        Icon				= WpnAddon_HKMP5A3_TrijiconSight,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        MaxRangeModifier	= 3,
+        MountOn				= HKMP5A3,
+        PartType			= Scope,
+        Tooltip				= Tooltip_IronSight,
+    }
+}

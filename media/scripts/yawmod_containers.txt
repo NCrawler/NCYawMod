@@ -1,0 +1,547 @@
+/** ================================================ **/
+/** NCYawMod Containers         					 **/
+/** ================================================ **/
+
+module NCYawMod
+{
+	item MediumALICEPack
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 25,
+		DisplayName			= Medium ALICE Pack,
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 30,
+		DisplayName			= Large ALICE Pack,
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item ALICEPackFrame
+	{
+		Weight				= 1.0,
+		Type				= Normal,
+		UseWhileEquipped	= FALSE,
+		DisplayName			= ALICE Pack Frame,
+		Icon				= Container_ALICEPackFrame,
+	}
+	
+	item ALICEPackTopPouch
+	{
+		Weight				= 0.2,
+		Type				= Normal,
+		UseWhileEquipped	= FALSE,
+		DisplayName			= ALICE Pack Top Pouch,
+		Icon				= Container_ALICEPackTopPouch,
+	}
+	
+	item ALICEPackLongPouch
+	{
+		Weight				= 0.2,
+		Type				= Normal,
+		UseWhileEquipped	= FALSE,
+		DisplayName			= ALICE Pack Long Pouch,
+		Icon				= Container_ALICEPackLongPouch,
+	}
+	
+	item ALICEPackShortPouch
+	{
+		Weight				= 0.2,
+		Type				= Normal,
+		UseWhileEquipped	= FALSE,
+		DisplayName			= ALICE Pack Short Pouch,
+		Icon				= Container_ALICEPackShortPouch,
+	}
+	
+	item ALICEPackEToolPouch
+	{
+		Weight				= 0.2,
+		Type				= Normal,
+		UseWhileEquipped	= FALSE,
+		DisplayName			= ALICE Pack E-Tool Pouch,
+		Icon				= Container_ALICEPackEToolPouch,
+	}
+	
+	item ALICEPackCombatKnifeSheath
+	{
+		Weight				= 0.1,
+		Type				= Normal,
+		UseWhileEquipped	= FALSE,
+		DisplayName			= ALICE Pack Combat Knife Sheath,
+		Icon				= Container_ALICEPackCombatKnifeSheath,
+	}
+	
+	item LargeALICEPack-F
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 30,
+		DisplayName			= Large ALICE Pack (F),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FT
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 32,
+		DisplayName			= Large ALICE Pack (FT),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FL
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 32,
+		DisplayName			= Large ALICE Pack (FL),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FS
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 31,
+		DisplayName			= Large ALICE Pack (FS),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FE
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 30,
+		DisplayName			= Large ALICE Pack (FE),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FTL
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 34,
+		DisplayName			= Large ALICE Pack (FTL),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FTS
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 33,
+		DisplayName			= Large ALICE Pack (FTS),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FLS
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 33,
+		DisplayName			= Large ALICE Pack (FLS),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FTE
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 32,
+		DisplayName			= Large ALICE Pack (FTE),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FLE
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 32,
+		DisplayName			= Large ALICE Pack (FLE),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FSE
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 31,
+		DisplayName			= Large ALICE Pack (FSE),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FTLE
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 34,
+		DisplayName			= Large ALICE Pack (FTLE),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FTSE
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 33,
+		DisplayName			= Large ALICE Pack (FTSE),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FTLS
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 35,
+		DisplayName			= Large ALICE Pack (FTLS),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeALICEPack-FTLSE
+	{
+		WeightReduction		= 82,
+		Weight				= 0.7,
+		Type				= Container,
+		Capacity			= 35,
+		DisplayName			= Large ALICE Pack (FTLSE),
+		Icon				= Container_LargeALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-F
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 25,
+		DisplayName			= Medium ALICE Pack (F),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FT
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 27,
+		DisplayName			= Medium ALICE Pack (FT),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FL
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 27,
+		DisplayName			= Medium ALICE Pack (FL),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FS
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 26,
+		DisplayName			= Medium ALICE Pack (FS),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FE
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 25,
+		DisplayName			= Medium ALICE Pack (FE),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FTL
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 29,
+		DisplayName			= Medium ALICE Pack (FTL),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FTS
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 28,
+		DisplayName			= Medium ALICE Pack (FTS),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FTE
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 27,
+		DisplayName			= Medium ALICE Pack (FTE),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FLS
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 28,
+		DisplayName			= Medium ALICE Pack (FLS),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FLE
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 27,
+		DisplayName			= Medium ALICE Pack (FLE),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FSE
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 26,
+		DisplayName			= Medium ALICE Pack (FSE),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FTLE
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 29,
+		DisplayName			= Medium ALICE Pack (FTLE),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FTSE
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 28,
+		DisplayName			= Medium ALICE Pack (FTSE),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FTLS
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 30,
+		DisplayName			= Medium ALICE Pack (FTLS),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumALICEPack-FTLSE
+	{
+		WeightReduction		= 80,
+		Weight				= 0.5,
+		Type				= Container,
+		Capacity			= 30,
+		DisplayName			= Medium ALICE Pack (FTLSE),
+		Icon				= Container_MediumALICEPack,
+		CanBeEquipped		= Back,
+		OpenSound			= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeFirstAidKit
+	{
+		WeightReduction	= 65,
+		Weight					= 1.5,
+		Type						= Container,
+		Capacity				= 12,
+		DisplayName			= Large First Aid Kit,
+		Icon						= Container_LargeFirstAidKit,
+		OpenSound				= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item MediumToolBag
+	{
+		WeightReduction	= 65,
+		Weight					= 1.5,
+		Type						= Container,
+		Capacity				= 12,
+		DisplayName			= Medium Tool Bag,
+		Icon						= Container_MediumToolBag,
+		OpenSound				= PZ_OpenBag,
+		CloseSound			= PZ_CloseBag,
+		PutInSound			= PZ_PutInBag,
+	}
+	
+	item LargeAmmoCan
+	{
+		WeightReduction	= 65,
+		Weight					= 2.0,
+		Type						= Container,
+		Capacity				= 10,
+		DisplayName			= Large Ammunition Can,
+		Icon						= Container_LargeAmmoCan,
+		OpenSound				= AmmoCanOpen,
+		CloseSound			= AmmoCanClose,
+		PutInSound			= PZ_PutInBag,
+	}
+}

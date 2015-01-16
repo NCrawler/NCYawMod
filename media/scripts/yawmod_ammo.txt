@@ -1,0 +1,216 @@
+/** ================================================ **/
+/** NCYawMod Ammunition and Ammunition Boxes		 **/
+/** ================================================ **/
+
+module NCYawMod
+{
+	item Bullets22LR
+	{
+		Count				= 20,
+		Weight				= 0.01,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .22 LR Rounds,
+		DisplayCategory		= Ammo,
+		Icon				= Ammo_22LR,
+	}
+
+	item Box22LR
+  	{
+  		Weight				= 1.0,
+  		AlwaysWelcomeGift	= TRUE,
+  		Type				= Normal,
+  		DisplayName			= .22 LR Box,
+  		DisplayCategory		= Ammo,
+  		Icon				= Misc_Box22LR,
+  	}
+  
+	item Bullets9x19mmLuger
+	{
+		Count				= 10,
+		Weight				= 0.02,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= 9x19mm Luger Rounds,
+		DisplayCategory		= Ammo,
+		Icon				= Ammo_9x19mmLuger,
+	}
+	
+	item Box9x19mmLuger
+	{
+		Weight				= 1.0,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= 9x19mm Luger Box,
+		DisplayCategory		= Ammo,
+		Icon				= Misc_Box9x19mmLuger,
+	}
+	
+	item Bullets40SW
+	{
+		Count				= 10,
+		Weight				= 0.02,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .40 S&W Rounds,
+		DisplayCategory		= Ammo,
+		Icon				= Ammo_40SW,
+	}
+	
+	item Box40SW
+	{
+		Weight				= 1.0,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .40 S&W Box,
+		DisplayCategory		= Ammo,
+		Icon				= Misc_Box40S&W,
+	}
+	
+	item Bullets45ACP
+	{
+		Count				= 10,
+		Weight				= 0.02,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .45 ACP Rounds,
+		DisplayCategory		= Ammo,
+		Icon				= Ammo_45ACP,
+	}
+	
+	item Box45ACP
+	{
+		Weight				= 1.0,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .45 ACP Box,
+		DisplayCategory		= Ammo,
+		Icon				= Misc_Box45ACP,
+	}
+	
+	item Bullets357Magnum
+	{
+		Count				= 10,
+		Weight				= 0.02,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .357 Magnum Rounds,
+		DisplayCategory		= Ammo,
+		Icon				= Ammo_357Magnum,
+	}
+	
+	item Box357Magnum
+	{
+		Weight				= 1.0,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .357 Magnum Box,
+		DisplayCategory		= Ammo,
+		Icon				= Misc_Box357Magnum,
+	}
+	
+	item Bullets3030Win
+	{
+		Count				= 5,
+		Weight				= 0.04,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .30-30 Win Rounds,
+		DisplayCategory		= Ammo,
+		Icon				= Ammo_3030Win,
+	}
+	
+	item Box3030Win
+	{
+		Weight				= 1.0,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .30-30 Win Box,
+		DisplayCategory		= Ammo,
+		Icon				= Misc_Box3030Win,
+	}
+	
+	item Bullets223Rem
+	{
+		Count				= 5,
+		Weight				= 0.04,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .223 Rem Rounds,
+		DisplayCategory		= Ammo,
+		Icon				= Ammo_223Rem,
+	}
+	
+	item Box223Rem
+	{
+		Weight				= 1.0,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .223 Rem Box,
+		DisplayCategory		= Ammo,
+		Icon				= Misc_Box223Rem,
+	}
+	
+	item Bullets308Win
+	{
+		Count				= 5,
+		Weight				= 0.04,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .308 Win Rounds,
+		DisplayCategory		= Ammo,
+		Icon				= Ammo_308Win,
+	}
+	
+	item Box308Win
+	{
+		Weight				= 1.0,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .308 Win Box,
+		DisplayCategory		= Ammo,
+		Icon				= Misc_Box308Win,
+	}
+	
+	item Bullets762x39mm
+	{
+		Count				= 5,
+		Weight				= 0.04,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= 7.62x39mm M43 Rounds,
+		DisplayCategory		= Ammo,
+		Icon				= Ammo_762x39mm,
+	}
+	
+	item Box762x39mm
+	{
+		Weight				= 1.0,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= 7.62x39mm M43 Box,
+		DisplayCategory		= Ammo,
+		Icon				= Misc_Box762x39mm,
+	}
+  
+  item Shells12Ga
+	{
+		Count				= 10,
+		Weight				= 0.05,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .12 Gauge Shells,
+		DisplayCategory		= Ammo,
+		Icon				= Ammo_12Ga,
+	}
+	
+	item Box12Ga
+	{
+		Weight				= 1.0,
+		AlwaysWelcomeGift	= TRUE,
+		Type				= Normal,
+		DisplayName			= .12 Gauge Box,
+		DisplayCategory		= Ammo,
+		Icon				= Misc_Box12Ga,
+	}
+}

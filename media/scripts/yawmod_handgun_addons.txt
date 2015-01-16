@@ -1,0 +1,310 @@
+/** ================================================ **/
+/** NCYawMod Handgun Addons							 **/
+/** ================================================ **/
+
+module NCYawMod
+{
+	/** ================================================ **/
+	/** Scopes					      					 **/
+	/** ================================================ **/
+	item HandgunScope2x
+    {
+        Type				= WeaponPart,
+        DisplayName			= 2x Handgun Scope,
+        Icon				= WpnAddon_Handgun_2xScope,
+        Weight				= 0.3,
+        WeightModifier		= 0.3,
+        MaxRangeModifier	= 7,
+        MinRangeModifier	= 6,
+        MountOn				= RugerMarkIII; Beretta92FS; BerettaPx4Storm; Colt1911; S&W686,
+        PartType			= Scope,
+        Tooltip				= Tooltip_Scope,
+    }
+    
+    item HandgunScope4x
+    {
+        Type				= WeaponPart,
+        DisplayName			= 4x Handgun Scope,
+        Icon				= WpnAddon_Handgun_4xScope,
+        Weight				= 0.4,
+        WeightModifier		= 0.4,
+        MaxRangeModifier	= 13,
+        MinRangeModifier	= 8,
+        MountOn				= RugerMarkIII; Beretta92FS; BerettaPx4Storm; Colt1911; S&W686,
+        PartType			= Scope,
+        Tooltip				= Tooltip_Scope,
+    }
+    
+    item HandgunScope8x
+    {
+        Type				= WeaponPart,
+        DisplayName			= 8x Handgun Scope,
+        Icon				= WpnAddon_Handgun_8xScope,
+        Weight				= 0.8,
+        WeightModifier		= 0.8,
+        MaxRangeModifier	= 20,
+        MinRangeModifier	= 10,
+        MountOn				= RugerMarkIII; Beretta92FS; BerettaPx4Storm; Colt1911; S&W686,
+        PartType			= Scope,
+        Tooltip				= Tooltip_Scope,
+    }
+    
+    /** ================================================ **/
+	/** Ruger Mk III									 **/
+	/** ================================================ **/
+	item RugerMkIIIFiberOpticSight
+	{
+		Type				= WeaponPart,
+        DisplayName			= Fiber Optic Sight,
+        Icon				= WpnAddon_RugerMkIII_FiberOpticSight,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        MaxRangeModifier	= 3,
+        MountOn				= RugerMarkIII,
+        PartType			= Scope,
+        Tooltip				= Tooltip_IronSight,
+	}
+	
+	item RugerMkIIITargetGrips
+	{
+		Type				= WeaponPart,
+        DisplayName			= Target Grips,
+        Icon				= WpnAddon_RugerMkIII_TargetGrips,
+        Weight				= 0.2,
+        WeightModifier		= -0.5,
+        HitChanceModifier	= 8,
+        MountOn				= RugerMarkIII,
+        PartType			= Stock,
+        Tooltip				= Tooltip_FiberglassStock,
+	}
+	
+	item RugerMkIIIReflexSight
+	{
+		Type				= WeaponPart,
+        DisplayName			= Reflex Sight,
+        Icon				= WpnAddon_RugerMkIII_ReflexSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        AimingTimeModifier	= 5,
+        MountOn				= RugerMarkIII; Colt1911,
+        PartType			= Scope,
+        Tooltip				= Tooltip_RedDot,
+	}
+	
+	/** ================================================ **/
+	/** Beretta 92FS									 **/
+	/** ================================================ **/
+	item Beretta92ExtendedMag
+	{
+		Type				= WeaponPart,
+        DisplayName			= High Cap Mag,
+        Icon				= WpnAddon_Beretta92_HighCapMag,
+        Weight				= 0.5,
+        ClipSizeModifier	= 15,
+        MountOn				= Beretta92FS,
+        PartType			= Clip,
+        Tooltip				= Increase capacity,
+	}
+	
+	item Beretta92TruDotSight
+	{
+		Type				= WeaponPart,
+        DisplayName			= Tru Dot Sight,
+        Icon				= WpnAddon_Beretta92_TruDotSight,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        MaxRangeModifier	= 3,
+        MountOn				= Beretta92FS,
+        PartType			= Scope,
+        Tooltip				= Tooltip_IronSight,
+	}
+	
+	item Beretta92RubberGrips
+	{
+		Type				= WeaponPart,
+        DisplayName			= Rubber Grips,
+        Icon				= WpnAddon_Beretta92_RubberGrips,
+        Weight				= 0.2,
+        WeightModifier		= -0.5,
+        HitChanceModifier	= 8,
+        MountOn				= Beretta92FS,
+        PartType			= Stock,
+        Tooltip				= Tooltip_FiberglassStock,
+	}
+	
+	item Beretta92ReflexSight
+	{
+		Type				= WeaponPart,
+        DisplayName			= Reflex Sight,
+        Icon				= WpnAddon_Beretta92_ReflexSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        AimingTimeModifier	= 5,
+        MountOn				= Beretta92FS,
+        PartType			= Scope,
+        Tooltip				= Tooltip_RedDot,
+	}
+	
+	item Beretta92LaserSight
+	{
+		Type				= WeaponPart,
+        DisplayName			= Laser Sight,
+        Icon				= WpnAddon_Beretta92_LaserSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        HitChanceModifier	= 5,
+        MountOn				= Beretta92FS,
+        PartType			= Canon,
+        Tooltip				= Tooltip_Laser,
+	}
+	
+	/** ================================================ **/
+	/** Beretta Px4 Storm								 **/
+	/** ================================================ **/
+	item BerettaPx4ExtendedMag
+	{
+		Type				= WeaponPart,
+        DisplayName			= High Cap Mag,
+        Icon				= WpnAddon_BerettaPx4_HighCapMag,
+        Weight				= 0.5,
+        ClipSizeModifier	= 5,
+        MountOn				= BerettaPx4Storm,
+        PartType			= Clip,
+        Tooltip				= Increase capacity,
+	}
+	
+	item BerettaPx4TruDotSight
+	{
+		Type				= WeaponPart,
+        DisplayName			= Tru Dot Sight,
+        Icon				= WpnAddon_BerettaPx4_TruDotSight,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        MaxRangeModifier	= 3,
+        MountOn				= BerettaPx4Storm,
+        PartType			= Scope,
+        Tooltip				= Tooltip_IronSight,
+	}
+	
+	item BerettaPx4RubberGrips
+	{
+		Type				= WeaponPart,
+        DisplayName			= Rubber Grips,
+        Icon				= WpnAddon_BerettaPx4_RubberGrips,
+        Weight				= 0.2,
+        WeightModifier		= -0.5,
+        HitChanceModifier	= 8,
+        MountOn				= BerettaPx4Storm,
+        PartType			= Stock,
+        Tooltip				= Tooltip_FiberglassStock,
+	}
+	
+	item BerettaPx4ReflexSight
+	{
+		Type				= WeaponPart,
+        DisplayName			= Reflex Sight,
+        Icon				= WpnAddon_BerettaPx4_ReflexSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        AimingTimeModifier	= 5,
+        MountOn				= BerettaPx4Storm,
+        PartType			= Scope,
+        Tooltip				= Tooltip_RedDot,
+	}
+	
+	item BerettaPx4LaserSight
+	{
+		Type				= WeaponPart,
+        DisplayName			= Laser Sight,
+        Icon				= WpnAddon_BerettaPx4_LaserSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        HitChanceModifier	= 5,
+        MountOn				= BerettaPx4Storm,
+        PartType			= Canon,
+        Tooltip				= Tooltip_Laser,
+	}
+	
+	/** ================================================ **/
+	/** Colt 1911										 **/
+	/** ================================================ **/
+	item Colt1911ExtendedMag
+	{
+		Type				= WeaponPart,
+        DisplayName			= High Cap Mag,
+        Icon				= WpnAddon_Colt1911_HighCapMag,
+        Weight				= 0.5,
+        ClipSizeModifier	= 8,
+        MountOn				= Colt1911,
+        PartType			= Clip,
+        Tooltip				= Increase capacity,
+	}
+	
+	item Colt1911TruDotSight
+	{
+		Type				= WeaponPart,
+        DisplayName			= Tru Dot Sight,
+        Icon				= WpnAddon_Colt1911_TruDotSight,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        MaxRangeModifier	= 3,
+        MountOn				= Colt1911,
+        PartType			= Scope,
+        Tooltip				= Tooltip_IronSight,
+	}
+	
+	item Colt1911RubberGrips
+	{
+		Type				= WeaponPart,
+        DisplayName			= Rubber Grips,
+        Icon				= WpnAddon_Colt1911_RubberGrips,
+        Weight				= 0.2,
+        WeightModifier		= -0.5,
+        HitChanceModifier	= 8,
+        MountOn				= Colt1911,
+        PartType			= Stock,
+        Tooltip				= Tooltip_FiberglassStock,
+	}
+	
+	item Colt1911LaserSight
+	{
+		Type				= WeaponPart,
+        DisplayName			= Laser Sight,
+        Icon				= WpnAddon_Colt1911_LaserSight,
+        Weight				= 0.2,
+        WeightModifier		= 0.2,
+        HitChanceModifier	= 5,
+        MountOn				= Colt1911,
+        PartType			= Canon,
+        Tooltip				= Tooltip_Laser,
+	}
+	
+	/** ================================================ **/
+	/** S&W 686											 **/
+	/** ================================================ **/
+	item S&W686FiberOpticSight
+	{
+		Type				= WeaponPart,
+        DisplayName			= Fiber Optic Sight,
+        Icon				= WpnAddon_S&W686_FiberOpticSight,
+        Weight				= 0.1,
+        WeightModifier		= 0.1,
+        MaxRangeModifier	= 3,
+        MountOn				= S&W686,
+        PartType			= Scope,
+        Tooltip				= Tooltip_IronSight,
+	}
+	
+	item S&W686RubberGrips
+	{
+		Type				= WeaponPart,
+        DisplayName			= Rubber Grips,
+        Icon				= WpnAddon_S&W686_RubberGrips,
+        Weight				= 0.2,
+        WeightModifier		= -0.5,
+        HitChanceModifier	= 8,
+        MountOn				= S&W686,
+        PartType			= Stock,
+        Tooltip				= Tooltip_FiberglassStock,
+	}
+}
