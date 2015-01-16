@@ -10,7 +10,7 @@ module NCYawMod
 		Weight				= 0.01,
 		AlwaysWelcomeGift	= TRUE,
 		Type				= Normal,
-		DisplayName			= .22 LR Rounds,
+		DisplayName			= .22 LR,
 		DisplayCategory		= Ammo,
 		Icon				= Ammo_22LR,
 	}
@@ -31,7 +31,7 @@ module NCYawMod
 		Weight				= 0.02,
 		AlwaysWelcomeGift	= TRUE,
 		Type				= Normal,
-		DisplayName			= 9x19mm Luger Rounds,
+		DisplayName			= 9x19mm Luger,
 		DisplayCategory		= Ammo,
 		Icon				= Ammo_9x19mmLuger,
 	}
@@ -52,7 +52,7 @@ module NCYawMod
 		Weight				= 0.02,
 		AlwaysWelcomeGift	= TRUE,
 		Type				= Normal,
-		DisplayName			= .40 S&W Rounds,
+		DisplayName			= .40 S&W,
 		DisplayCategory		= Ammo,
 		Icon				= Ammo_40SW,
 	}
@@ -73,7 +73,7 @@ module NCYawMod
 		Weight				= 0.02,
 		AlwaysWelcomeGift	= TRUE,
 		Type				= Normal,
-		DisplayName			= .45 ACP Rounds,
+		DisplayName			= .45 ACP,
 		DisplayCategory		= Ammo,
 		Icon				= Ammo_45ACP,
 	}
@@ -94,7 +94,7 @@ module NCYawMod
 		Weight				= 0.02,
 		AlwaysWelcomeGift	= TRUE,
 		Type				= Normal,
-		DisplayName			= .357 Magnum Rounds,
+		DisplayName			= .357 Magnum,
 		DisplayCategory		= Ammo,
 		Icon				= Ammo_357Magnum,
 	}
@@ -115,7 +115,7 @@ module NCYawMod
 		Weight				= 0.04,
 		AlwaysWelcomeGift	= TRUE,
 		Type				= Normal,
-		DisplayName			= .30-30 Win Rounds,
+		DisplayName			= .30-30 Win,
 		DisplayCategory		= Ammo,
 		Icon				= Ammo_3030Win,
 	}
@@ -136,7 +136,7 @@ module NCYawMod
 		Weight				= 0.04,
 		AlwaysWelcomeGift	= TRUE,
 		Type				= Normal,
-		DisplayName			= .223 Rem Rounds,
+		DisplayName			= .223 Rem,
 		DisplayCategory		= Ammo,
 		Icon				= Ammo_223Rem,
 	}
@@ -157,7 +157,7 @@ module NCYawMod
 		Weight				= 0.04,
 		AlwaysWelcomeGift	= TRUE,
 		Type				= Normal,
-		DisplayName			= .308 Win Rounds,
+		DisplayName			= .308 Win,
 		DisplayCategory		= Ammo,
 		Icon				= Ammo_308Win,
 	}
@@ -178,7 +178,7 @@ module NCYawMod
 		Weight				= 0.04,
 		AlwaysWelcomeGift	= TRUE,
 		Type				= Normal,
-		DisplayName			= 7.62x39mm M43 Rounds,
+		DisplayName			= 7.62x39mm M43,
 		DisplayCategory		= Ammo,
 		Icon				= Ammo_762x39mm,
 	}
@@ -199,7 +199,7 @@ module NCYawMod
 		Weight				= 0.05,
 		AlwaysWelcomeGift	= TRUE,
 		Type				= Normal,
-		DisplayName			= .12 Gauge Shells,
+		DisplayName			= .12 Gauge,
 		DisplayCategory		= Ammo,
 		Icon				= Ammo_12Ga,
 	}
